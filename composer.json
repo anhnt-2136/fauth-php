@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Framgia\\Fauth\\FAuthServiceProvider::class"
+                "Framgia\\Fauth\\FAuthServiceProvider"
             ],
             "aliases": {
                 "Fauth": "Framgia\\Fauth\\Facades\\Fauth"
