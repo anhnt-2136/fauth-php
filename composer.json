@@ -26,7 +26,19 @@
         "phpunit/phpunit": "~4.0|~5.0"
     },
     "minimum-stability": "dev",
-    "psr-4": {
-        "Framgia\\Fauth\\": "src"
+    "autoload": {
+        "psr-4": {
+            "Framgia\\Fauth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Framgia\\Fauth\\FAuthServiceProvider::class"
+            ],
+            "aliases": {
+                "Fauth": "Framgia\\Fauth\\Facades\\Fauth"
+            }
+        }
     }
 }
