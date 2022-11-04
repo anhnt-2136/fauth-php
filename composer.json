@@ -1,6 +1,10 @@
 {
     "name": "framgia/fauth-php",
-    "keywords": ["laravel", "oauth", "authentication"],
+    "keywords": [
+        "laravel",
+        "oauth",
+        "authentication"
+    ],
     "description": "Authentication User Framgia",
     "type": "library",
     "license": "Framgia",
@@ -22,5 +26,7 @@
         "phpunit/phpunit": "~4.0|~5.0"
     },
     "minimum-stability": "dev",
-    "require": {}
+    "psr-4": {
+        "Framgia\\Fauth\\": "src"
+    }
 }
